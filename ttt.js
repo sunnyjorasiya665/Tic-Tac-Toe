@@ -45,7 +45,7 @@ const winPatterns = [
   }
 
   const showWinner = (winner) => {
-    msg.innerText = `Congratulations, You are Winner`;
+    msg.innerText = `Congratulations, winner is ${winner}`;
     msgC.classList.remove("hide");
     disableBoxes();
   }
